@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: fit-content;
+}
+
+
+.row {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+.box1 .box { background-color: #ff6b6b; } 
+.box2 .box { background-color: #4dabf7; } 
+.box3 .box { background-color: #51cf66; } 
+.box4 .box { background-color: #ffd43b; } 
+
+span {
+    font-weight: bold;
+}
